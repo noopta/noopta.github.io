@@ -1,0 +1,531 @@
+@font-face {
+  font-family: openSansBold;
+  src: url(./OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: openSansLight;
+  src: url(./OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: openSans;
+  src: url(./OpenSans-Regular.ttf);
+}
+
+.container .heading h1 {
+  font-family: openSans;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 18;
+}
+
+.rectangle {
+  width: 5.44%;
+  height: 1%;
+  background-color: black;
+  position: absolute;
+  left: 47.5%;
+  margin: 0;
+  padding: 0;
+}
+
+.transparent2 {
+  background-color: none;
+  opacity: 0.7;
+}
+
+.transparentBtn {
+  background-color: none;
+  opacity: 0.7;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.lightBlue {
+  background-color: #3399ff;
+  color: white;
+}
+
+.navBtn {
+  padding: 1em 2.1em 1.1em;
+  border-radius: 3px;
+  margin: 8px 8px 8px 8px;
+
+  display: inline-block;
+  color: black;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-family: openSansBold;
+  opacity: 0.7;
+  font-size: 0.65em;
+
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  position: relative;
+  left: 67%;
+}
+.navBtn:hover,
+.navBtn:focus {
+  opacity: 1;
+}
+.navBtn:active {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.navBtn.block {
+  display: block !important;
+}
+.navBtn.circular {
+  border-radius: 50em !important;
+}
+
+.sectionBtn {
+  padding: 1em 2.1em 1.1em;
+  border-radius: 3px;
+  margin: 8px 8px 8px 8px;
+
+  color: black;
+
+  display: inline-block;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-family: openSansBold;
+  opacity: 1;
+  font-size: 0.8em;
+
+  text-align: center;
+  text-decoration: none;
+
+  position: relative;
+}
+.sectionBtn:hover,
+.sectionBtn:focus {
+  opacity: 0.7;
+}
+.sectionBtn:active {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.sectionBtn.block {
+  display: block !important;
+}
+.sectionBtn.circular {
+  border-radius: 50em !important;
+}
+
+.sections {
+  position: absolute;
+
+  left: 42.5%;
+  top: 32.375%;
+}
+
+.red {
+  background-color: #ff5f58;
+  color: white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.logo {
+  position: absolute;
+  top: -1.5%;
+  left: 0;
+  width: 200px;
+  height: 220px;
+}
+
+.iconRow {
+  display: inline-block;
+
+  font-family: openSansBold;
+  opacity: 1;
+  font-size: 0.8em;
+  width: 100%;
+
+  text-align: center;
+  text-decoration: none;
+
+  position: relative;
+  top: 130px;
+}
+
+.blueCircle {
+  background-color: #3399ff;
+  width: 10%;
+  display: inline-block;
+  height: 20%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  margin-left: 50;
+  margin-right: 50;
+}
+
+.blueCircle h1 {
+  text-align: center;
+  margin-right: 75;
+  margin-bottom: 0;
+}
+
+.blueCircle p {
+  text-align: left;
+  font-family: openSans;
+  font-size: 14px;
+  line-height: 2;
+  margin-top: 5;
+}
+
+.rocketImg {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 19.4%;
+  top: 7%;
+}
+
+.devicesImg {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+
+  top: 21%;
+  left: 38.2%;
+}
+
+.folderImg {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+
+  top: 19%;
+  left: 56.5%;
+}
+
+.diamondImg {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+
+  top: 17%;
+  left: 74.5%;
+}
+
+.textInfo {
+  position: absolute;
+  top: 90%;
+}
+
+.servicesSection {
+  width: 100%;
+  position: absolute;
+  top: 410px;
+}
+
+.servicesSection h1 {
+  font-family: openSans;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-bottom: 50;
+}
+
+.servicesSection h2 {
+  font-family: openSansBold;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 50;
+}
+
+.tintHeadingOne {
+  position: absolute;
+  left: 27%;
+  top: 47%;
+  color: white;
+}
+
+.tintHeadingTwo {
+  position: absolute;
+  left: 53%;
+  top: 120%;
+  color: white;
+}
+
+.imageResizing {
+  width: 418px;
+  height: 290px;
+}
+
+.imageResizing2 {
+  position: relative;
+  top: 290px;
+  width: 418px;
+  height: 290px;
+}
+
+.firstTint {
+  width: 418px;
+  height: 290px;
+  background-color: black;
+  opacity: 53%;
+  position: absolute;
+  left: 16.4%;
+  top: 29%;
+}
+
+.secondTint {
+  width: 418px;
+  height: 290px;
+  background-color: black;
+  opacity: 53%;
+  position: absolute;
+  left: 50.2%;
+  top: 99%;
+}
+
+.firstDescription {
+  position: absolute;
+  text-align: left;
+  left: 55%;
+  top: 25%;
+}
+
+.firstDescription h3 {
+  font-family: openSans;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.firstDescription p {
+  font-family: openSans;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.secondDescription {
+  position: absolute;
+  text-align: left;
+  left: 22%;
+  top: 100%;
+}
+
+.secondDescription h3 {
+  font-family: openSans;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.secondDescription p {
+  font-family: openSans;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.boldRectangleOne {
+  background-color: white;
+  width: 70px;
+  height: 5px;
+  position: absolute;
+  left: 30%;
+  top: 65%;
+  transition: 5s;
+  -webkit-transition: 5s;
+  -moz-transition: 5s;
+  -ms-transition: 5s;
+  -o-transition: 5s;
+}
+
+.boldRectangleTwo {
+  background-color: white;
+  width: 70px;
+  height: 5px;
+  position: absolute;
+  left: 63.5%;
+  top: 138.5%;
+}
+
+.faqContainer {
+  display: none;
+}
+
+.questionOneContainer {
+  background-color: #efefef;
+  color: black;
+  width: 78%;
+  height: 40%;
+  border-radius: 1%;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  -o-border-radius: 1%;
+  transition: 1s;
+  position: absolute;
+  left: 12%;
+  /*SHOULDBEtop: 50%;
+  */
+  top: 70%;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.questionOneContainer h1 {
+  font-family: openSansBold;
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 10%;
+  left: 17.3%;
+}
+
+.questionOneContainer p {
+  font-family: openSans;
+  font-size: 14px;
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+.questionTwoContainer {
+  background-color: #efefef;
+  transition: 1s;
+  color: black;
+  width: 78%;
+  height: 40%;
+  border-radius: 1%;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  -o-border-radius: 1%;
+  position: absolute;
+  left: 12%;
+  top: 115%;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.questionTwoContainer h1 {
+  font-family: openSansBold;
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 10%;
+  left: 17.3%;
+}
+
+.questionTwoContainer p {
+  font-family: openSans;
+  font-size: 14px;
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+.questionThreeContainer {
+  background-color: #efefef;
+  color: black;
+  transition: 1s;
+  width: 78%;
+  height: 40%;
+  border-radius: 1%;
+  -webkit-border-radius: 1%;
+  -moz-border-radius: 1%;
+  -ms-border-radius: 1%;
+  -o-border-radius: 1%;
+  position: absolute;
+  left: 12%;
+  top: 160%;
+  margin-bottom: 40px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.questionThreeContainer h1 {
+  font-family: openSansBold;
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 10%;
+  left: 17.3%;
+}
+.questionThreeContainer p {
+  font-family: openSans;
+  font-size: 14px;
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+.questionMark {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 7%;
+  top: 10%;
+}
+
+.blueCheck {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 37%;
+  left: 17%;
+}
+
+.hoverRectangle {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 8%;
+  left: 70%;
+  display: none;
+  transition: 3s;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+}
+
+span {
+  color: #003366;
+}

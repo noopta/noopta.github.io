@@ -1,0 +1,275 @@
+@font-face {
+  font-family: openSansBold;
+  src: url(./OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: openSansLight;
+  src: url(./OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: openSans;
+  src: url(./OpenSans-Regular.ttf);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.navBtn {
+  padding: 1em 2.1em 1.1em;
+  border-radius: 3px;
+  margin: 8px 8px 8px 8px;
+
+  color: black;
+
+  display: inline-block;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-family: openSansBold;
+  opacity: 0.7;
+  font-size: 0.65em;
+
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  position: relative;
+  left: 67%;
+}
+.navBtn:hover,
+.navBtn:focus {
+  opacity: 1;
+}
+.navBtn:active {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.navBtn.block {
+  display: block !important;
+}
+.navBtn.circular {
+  border-radius: 50em !important;
+}
+
+.lightBlue {
+  background-color: #3399ff;
+  color: white;
+}
+
+.transparent2 {
+  background-color: none;
+  opacity: 0.7;
+}
+
+.leftSide {
+  position: absolute;
+  top: 16.4%;
+  width: 67%;
+  height: 83.4%;
+  background-color: none;
+}
+
+.otherLeftSide {
+  position: absolute;
+  top: 16.4%;
+  width: 67%;
+  height: 83.4%;
+  background-color: black;
+  opacity: 32%;
+}
+
+.office {
+  width: 67%;
+  height: 84.4%;
+  position: absolute;
+  top: 16.4%;
+  height: 83.4%;
+}
+
+.rightSide {
+  position: absolute;
+  top: 16.4%;
+  width: 33%;
+  height: 83.4%;
+  right: 0;
+}
+
+.leftSide h1 {
+  text-align: center;
+  font-family: openSansLight;
+  font-weight: lighter;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 45;
+  padding-top: 45;
+  color: white;
+  text-align: left;
+}
+
+.leftContent {
+  position: absolute;
+  width: 100%;
+  left: 25%;
+}
+
+.leftSide p {
+  text-align: center;
+  font-family: openSansLight;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+  padding: 5;
+
+  color: white;
+}
+
+span {
+  font-family: openSansBold;
+  padding-right: 40;
+  font-style: normal;
+}
+
+.rightSide h1 {
+  text-align: center;
+  font-family: openSansLight;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 55;
+}
+
+.rightSide h2 {
+  font-size: 18px;
+  font-family: openSansLight;
+  padding-top: 25;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.solidRectangle {
+  background-color: black;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  left: 43%;
+  top: 17%;
+}
+
+.instagramIcon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 85.5%;
+  left: 72%;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  width: 75%;
+  height: 90%;
+  margin: 15 auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding-top: 15;
+}
+
+.form input {
+  font-family: openSans;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: openSansBold;
+  text-transform: uppercase;
+  outline: 0;
+  background: #003366;
+  width: 30%;
+  border: 0;
+  transition: 0.3s;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: 0.3s;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #003366;
+  opacity: 0.7;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #003366;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+.form .names {
+  width: 45%;
+
+  margin-right: 10;
+}
+
+.logo {
+  position: absolute;
+  top: -3%;
+  left: 0;
+  width: 190px;
+  height: 210px;
+}
+
+.hoverRectangle {
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 8%;
+  left: 70%;
+  display: none;
+  transition: 3s;
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+}
+
+.a span {
+  color: #003366;
+}
