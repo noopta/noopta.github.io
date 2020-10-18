@@ -210,8 +210,10 @@
 @media only screen and (max-device-width: 600px) {
   .blueBoxSquare {
     position: absolute;
-    top: 68%;
-    left: -20%;
+    top: 75%;
+    left: -10%;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -256,8 +258,8 @@
 @media only screen and (max-device-width: 600px) {
   .tower {
     position: absolute;
-    width: 375px;
-    height: 700px;
+    width: 980px;
+    height: 1500px;
     top: 150%;
     left: -40%;
   }
@@ -271,9 +273,11 @@
 
   .secondTint {
     position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 200px;
+    top: 150%;
+    left: -165%;
+    width: 980px;
+    height: 1500px;
+    opacity: 30%;
     background-color: black;
   }
 }
@@ -464,7 +468,7 @@
 
   .secondTitle h1 {
     position: absolute;
-    font-size: 20px;
+    font-size: 50px;
     top: 19%;
     left: 15%;
     width: 90%;
@@ -473,22 +477,37 @@
   .blueBox {
     position: absolute;
     top: 32%;
-    height: 40%;
+    height: 50%;
     width: 92%;
   }
   .infoBoxTexts {
     display: none;
   }
 
+  .blueBoxText {
+    width: 90%;
+  }
+
   .blueBoxText h1 {
-    display: none;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    font-size: 50px;
   }
   .blueBoxText p {
-    display: none;
+    position: absolute;
+    top: 520px;
+    left: 80px;
+    line-height: 2;
+    font-size: 35px;
   }
 
   .btn {
-    display: none;
+    display: inline-block;
+    position: relative;
+    top: 800px;
+    left: 10%;
+    font-size: 1em;
   }
 
   .blackBox {
@@ -508,7 +527,11 @@
   }
 
   .scrollImage {
-    display: none;
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    width: 500px;
+    height: 350px;
   }
 
   .circles {
@@ -549,26 +572,26 @@
 
   .greyBoxLeft {
     position: absolute;
-    width: 200px;
-    height: 120px;
-    top: 80%;
+    width: 500px;
+    height: 320px;
+    top: 90%;
     left: 24%;
   }
 
   .greyBoxMiddle {
     position: absolute;
-    top: 100%;
-    width: 200px;
-    height: 120px;
+    top: 110%;
+    width: 500px;
+    height: 320px;
     left: 24%;
   }
 
   .greyBoxRight {
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 24%;
-    width: 200px;
-    height: 120px;
+    width: 500px;
+    height: 320px;
   }
 }
 
@@ -709,11 +732,11 @@
 
 @media only screen and (max-device-width: 600px) {
   .title img {
-    width: 220px;
-    height: 280px;
+    width: 610px;
+    height: 680px;
     position: absolute;
     top: 1%;
-    left: -21%;
+    left: -20%;
   }
 }
 
