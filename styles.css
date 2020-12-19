@@ -1095,3 +1095,348 @@ a {
   -o-transition: 0.3s;
   opacity: 0.4;
 }
+
+@media only screen and (max-width: 980px) {
+  .landingBlock {
+    width: 120%;
+    height: 1206px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c9beb8;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+  }
+
+  .landingBooking {
+    position: absolute;
+    top: 1%;
+    right: 4%;
+  }
+
+  .rowOneImageOne {
+    position: absolute;
+    top: 12%;
+    left: 10.5%;
+  }
+
+  .rowOneImageTwo {
+    position: absolute;
+    top: 12%;
+    right: 10.5%;
+  }
+
+  .rowTwoImageOne {
+    position: absolute;
+    top: 45.8%;
+    left: 37%;
+  }
+
+  .aboutBlock {
+    background-color: #c9beb8;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    width: 120%;
+    height: 620px;
+  }
+
+  .aboutTitle {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+  }
+
+  .aboutRectangleOne {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+  }
+
+  .aboutRectangleTwo {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+  }
+
+  .aboutRectangleThree {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+  }
+
+  .aboutRectangleFour {
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+  }
+
+  .leftSideRectangle {
+    background-color: white;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    left: 31%;
+    top: 28%;
+  }
+
+  .bookingBlock {
+    position: absolute;
+    top: 84%;
+    left: 0;
+    width: 120%;
+    height: 3035px;
+    background-color: #c9beb8;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .profileOne {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .profileTwo {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 21%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .profileThree {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 32%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .profileSix {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 43%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .profileSeven {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 54%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .profileFour {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 71%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .profileFive {
+    background-color: white;
+    width: 1100px;
+    height: 300px;
+    position: absolute;
+    top: 82%;
+    left: 3.5%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .productBlock {
+    position: absolute;
+    top: 220%;
+    left: 0;
+    height: 546px;
+    width: 120%;
+    background-color: #e2e2e2;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+  }
+
+  .circleOne {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+  }
+
+  .circleTwo {
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+  }
+
+  .circleThree {
+    position: absolute;
+    top: 35%;
+    left: 41.5%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+  }
+
+  .circleFour {
+    position: absolute;
+    top: 35%;
+    left: 61%;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+  }
+
+  .circleFive {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+  }
+
+  .kevinMurphy {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 42%;
+    left: 9.5%;
+  }
+
+  .altera {
+    width: 130px;
+    height: 65.68px;
+    position: absolute;
+    top: 47%;
+    left: 26%;
+  }
+
+  .sebastian {
+    width: 80px;
+    height: 106.33px;
+    position: absolute;
+    top: 44%;
+    left: 46.5%;
+  }
+
+  .matrix {
+    width: 160px;
+    height: 24.91px;
+    position: absolute;
+    top: 50.5%;
+    left: 62%;
+  }
+
+  .wella {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 41%;
+    left: 81%;
+  }
+
+  .productOne {
+    position: absolute;
+    top: 75%;
+    left: 8.5%;
+  }
+
+  .productTwo {
+    position: absolute;
+    top: 75%;
+    left: 27%;
+  }
+
+  .productThree {
+    position: absolute;
+    top: 75%;
+    left: 46%;
+  }
+
+  .productFour {
+    position: absolute;
+    top: 75%;
+    left: 66%;
+  }
+
+  .productFive {
+    position: absolute;
+    top: 75%;
+    left: 84.5%;
+  }
+
+  .rowOneImageOne img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    width: 308px;
+    height: 400px;
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -moz-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -ms-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+}
