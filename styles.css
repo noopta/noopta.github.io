@@ -1,0 +1,657 @@
+.landingBlock{
+    width: 100%;
+    height: 1206px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c9beb8;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+}
+
+.aboutBlock{
+    background-color: #c9beb8;
+    position:absolute;
+    top: 150%;
+    left: 0;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    width: 100%;
+    height: 620px;
+}
+
+.bookingBlock{
+    position:absolute;
+    top: 228%;
+    left: 0;
+    width:100%;
+    height: 3035px;
+    background-color: #c9beb8;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.productBlock{
+    position: absolute;
+    top: 600%;
+    left: 0;
+    height: 546px;
+    width: 100%;
+    background-color: #e2e2e2;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.productBlock h2{
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.bookingProfiles h4{
+    font-weight:lighter;
+    position:absolute;
+    left: 70%;
+    top: 20%;
+    font-size: 24px;
+}
+
+.bookingProfiles h3{
+    font-weight: lighter;
+    font-size: 30px;
+
+}
+
+.bookingProfiles p{
+    font-weight: lighter;
+    font-weight: 20px;
+    line-height: 2;
+}
+
+.bookingTitle{
+    margin-top:8%;
+}
+
+.bookingTitle p{
+    text-align: center;
+    font-size:  20px;
+    font-weight: lighter;
+    margin-top: 3%;
+}
+
+.bookingBlock h2{
+    text-align:center;
+    font-weight:lighter;
+    font-size: 40px;
+}
+
+.aboutBlock h2{
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.aboutBlock p{
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.aboutTitle{
+    position:absolute;
+    top: 2%;
+    right: 20%;
+}
+
+
+.landingBlock h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.landingBooking{
+    position:absolute;
+    top: 1%;
+    right: 8%;
+}
+
+.landingBlock h2{
+    font-weight:lighter;
+}
+
+.titleText{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.middleLandingText{
+    margin-top: 140px;
+    text-align: center;
+}
+
+.middleLandingText h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+.middleLandingText p{
+    margin: 14px;
+    font-size: 24px;
+}
+
+.rowOneImageOne{
+    position:absolute;
+    top: 10%;
+    left: 13.5%;
+}
+
+.rowOneImageTwo{
+    position:absolute;
+    top: 10%;
+    right: 13.5%;
+}
+
+.rowTwoImageOne{
+    position:absolute;
+    top:48.8%;
+    left: 37.85%;
+}
+
+.rowTwoImageOne img{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 351px;
+    height: 468px;
+}
+
+.rowTwoImageOne img:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.rowOneImageOne img{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 351px;
+    height: 468px;
+}
+
+.rowOneImageOne img:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.rowOneImageTwo img{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 351px;
+    height: 468px;
+}
+
+.rowOneImageTwo img:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.instagramIcon{
+    position:absolute;
+    top: 3%;
+    right: 20%;
+    width: 30px;
+    height: 30px;
+}
+
+.firstRowRectangle{
+    position:absolute;
+    top: 3%;
+    right: 18.4%;
+    background-color: black;
+    width: 3px;
+    height: 30px;
+}
+
+.leftSide{
+    width: 799px;
+    height: 800px;
+}
+
+.imageTint{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 35%;
+    width: 805px;
+    height: 620px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #9E1B32;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 10px 10px 0;
+    transition: all .6s;
+    min-width: 100px;
+    text-align: center
+}
+.btn:hover {
+    opacity: 70%;
+    color: #fff;
+}
+
+.profileOne{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 10%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.profileOne:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profileTwo{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 21%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.profileTwo:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profileThree{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 32%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.profileThree:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profileSix{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 43%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.profileSeven{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 54%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.profileSix:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profileFour{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 71%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.profileFour:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profileFive{
+    background-color:white;
+    width: 1124px;
+    height: 300px;
+    position:absolute;
+    top: 82%;
+    left: 11%;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.profileFive:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profilePhoto{
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    width: 184px;
+    height: 184px;
+}
+
+.profileText{
+    position:absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.greyRectangle{
+    position:relative;
+    top: 15%;
+    left: 60%;
+    width: 2px;
+    height: 200px;
+    background-color: #bdbdbd;
+}
+
+.bookingBtn{
+    position: absolute;
+    left: 64%;
+    top: 50%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.bookingPhoneIcon{
+    width:40px;
+    height: 40px;
+    position:absolute;
+    top: 30%;
+    left: 64%;
+}
+
+.medicalCosmetics{
+    width: 100%;
+    position:absolute;
+    top:65.9%;
+    text-align: center;
+}
+
+.circleOne{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.circleTwo{
+    position: absolute;
+    top: 35%;
+    left: 27%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.circleThree{
+    position: absolute;
+    top: 35%;
+    left: 43.5%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.circleFour{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.circleFive{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+
+}
+
+.productBlock h3{
+    font-weight: lighter;
+}
+
+.productOne{
+    position:absolute;
+    top: 75%;
+    left: 12.5%;
+}
+
+.productTwo{
+    position:absolute;
+    top: 75%;
+    left: 30%;
+}
+
+.productThree{
+    position:absolute;
+    top: 75%;
+    left: 47.5%;
+}
+
+.productFour{
+    position:absolute;
+    top: 75%;
+    left: 65%;
+}
+
+.productFive{
+    position:absolute;
+    top: 75%;
+    left: 82%;   
+}
+
+.kevinMurphy{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 42%;
+    left: 13%;
+}
+
+.altera{
+    width: 130px;
+    height: 65.68px;
+    position:absolute;
+    top: 47%;
+    left: 30%;
+}
+
+.sebastian{
+    width: 80px;
+    height: 106.33px;
+    position:absolute;
+    top: 44%;
+    left: 47.7%;
+}
+
+.matrix{
+    width: 160px;
+    height: 24.91px;
+    position:absolute;
+    top: 50.5%;
+    left: 61.5%;
+}
+
+.wella{
+    width:120px;
+    height: 120px;
+    position:absolute;
+    top: 41%;
+    left: 79%;
+}
+
+.aboutSubHeading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.scissorsIcon{
+    position:absolute;
+    left: 27%;
+    top: 25%;
+    width: 67px;
+    height: 67px;
+}
+
+.aboutRectangleOne{
+    background-color: white;
+    position:absolute;
+    top: 40%;
+    left: 5%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+}
+
+.aboutRectangleOne h4{
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.shampooIcon{
+    position:absolute;
+    left: 28%;
+    top: 25%;
+    width: 67px;
+    height: 67px;
+}
+
+.aboutRectangleTwo{
+    background-color: white;
+    position:absolute;
+    top: 40%;
+    left: 17%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+}
+
+.aboutRectangleTwo h4{
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.stylingIcon{
+    position:absolute;
+    left: 27%;
+    top: 25%;
+    width: 67px;
+    height: 67px;
+}
+
+.aboutRectangleThree{
+    background-color: white;
+    position:absolute;
+    top: 40%;
+    left: 29%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+
+}
+
+.aboutRectangleThree h4{
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.lightIcon{
+    position:absolute;
+    left: 27%;
+    top: 25%;
+    width: 67px;
+    height: 67px;
+}
+
+
+.aboutRectangleFour{
+    background-color: white;
+    position:absolute;
+    top: 40%;
+    left: 41%;
+    opacity: 73%;
+    width: 150px;
+    height: 226px;
+    color: black;
+}
+
+.aboutRectangleFour h4{
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.leftSide h3{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.leftSideRectangle{
+    background-color:white;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    left: 25%;
+    top: 28%;
+}
