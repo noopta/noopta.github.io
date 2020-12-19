@@ -1080,3 +1080,18 @@ a {
     top: 28%;
   }
 }
+
+.hoverRectangle {
+  width: 20px;
+  height: 5px;
+  position: absolute;
+  top: 6%;
+  background-color: black;
+  right: 10%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  opacity: 0.4;
+}
