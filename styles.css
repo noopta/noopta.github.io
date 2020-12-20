@@ -1135,7 +1135,7 @@ a {
   .aboutBlock {
     background-color: #c9beb8;
     position: absolute;
-    top: 68%;
+    top: 55%;
     left: 0;
     font-family: "Open Sans", sans-serif;
     color: black;
@@ -1204,7 +1204,7 @@ a {
 
   .bookingBlock {
     position: absolute;
-    top: 102%;
+    top: 84%;
     left: 0;
     width: 120%;
     height: 3035px;
@@ -1299,7 +1299,7 @@ a {
 
   .productBlock {
     position: absolute;
-    top: 276%;
+    top: 220%;
     left: 0;
     height: 546px;
     width: 120%;
